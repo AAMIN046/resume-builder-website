@@ -1,32 +1,70 @@
 body {
-  font-family: Arial;
-  background: #f4f4f4;
+  background: #ccc;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
+.title {
   text-align: center;
 }
 
-.container {
+.main {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-.form, .resume {
-  background: white;
+.form {
+  width: 35%;
+  background: #fff;
   padding: 20px;
-  width: 50%;
 }
 
-input, textarea {
+.form input, .form textarea {
   width: 100%;
-  margin: 5px 0;
+  margin-bottom: 8px;
   padding: 8px;
 }
 
-button {
-  margin-top: 10px;
+.form button {
+  width: 100%;
   padding: 10px;
+  margin-top: 5px;
   cursor: pointer;
+}
+
+.resume {
+  width: 65%;
+  background: #fff;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.section hr {
+  border: none;
+  border-top: 2px solid black;
+}
+
+.section p {
+  font-size: 14px;
+  margin-top: 8px;
 }
