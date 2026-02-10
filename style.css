@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form, .resume {
+  background: white;
+  padding: 20px;
+  width: 50%;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
